@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "PeakPowder",
+        "HERO_HEADING_TEXT": "Carve Your Perfect Mountain Adventure",
+        "HERO_SUBHEADING_TEXT": "Real-time snow reports, lift status, and trail maps for the ultimate skiing experience",
+        "FOOTER_TEXT": "\u00a9 2023 PeakPowder. Ski responsibly and always check local conditions before hitting the slopes."
+    }
+}
