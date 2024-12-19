@@ -74,5 +74,13 @@
         "metadata": {
             "tool_call_id": "call_7rN4zsciTR3tFR1qgscQCIMF"
         }
+    },
+    {
+        "id": "1ac25f62-263f-49bc-89f7-7f082f3c5df8",
+        "timestamp": "2024-12-19T11:01:18.866178Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "I have generated the staking smart contract for you. Would you like to deploy it? If yes, please specify the blockchain network (HOLESKY or SEPOLIA) to proceed.",
+        "metadata": {}
     }
 ]
