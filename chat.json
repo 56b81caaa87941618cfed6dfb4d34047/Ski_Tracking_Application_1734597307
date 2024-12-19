@@ -151,5 +151,15 @@
         "source": "smart_contract_assistant",
         "content": "I have already generated the frontend component for interacting with the staking contract. Would you like to modify the existing `Header1734597310` component to include functionalities to interact with the staking contract?",
         "metadata": {}
+    },
+    {
+        "id": "36a12480-9fc5-4ee3-be5b-fb5ce06815c8",
+        "timestamp": "2024-12-19T11:22:58.066222Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "another",
+        "metadata": {
+            "component_id": "Header1734597310"
+        }
     }
 ]
