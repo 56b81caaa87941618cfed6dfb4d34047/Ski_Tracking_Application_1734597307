@@ -271,5 +271,20 @@
         "source": "web_client",
         "content": "generate a minting sc",
         "metadata": {}
+    },
+    {
+        "id": "f1616691-27ed-4ac6-9eb4-66b6b92a19c1",
+        "timestamp": "2024-12-19T12:09:06.008277Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_eBiGIxaTzgHUolznPEGuIfQk",
+            "function": {
+                "arguments": "{}",
+                "name": "TransferToSmartContractAssistant"
+            },
+            "type": "function"
+        }
     }
 ]
