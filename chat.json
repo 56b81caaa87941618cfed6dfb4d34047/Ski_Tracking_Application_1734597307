@@ -133,5 +133,15 @@
         "source": "smart_contract_assistant",
         "content": "The staking contract has been successfully deployed on Holesky at address 0xc3039ee6993608c56ffAAcDb892b1ca5857858dD. Would you like to modify any frontend components to interact with this contract?",
         "metadata": {}
+    },
+    {
+        "id": "3715730a-a9f7-4097-af41-a1e793b00d86",
+        "timestamp": "2024-12-19T11:22:49.946932Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "ok generate a frontend for it",
+        "metadata": {
+            "component_id": "Header1734597310"
+        }
     }
 ]
