@@ -82,5 +82,15 @@
         "source": "smart_contract_assistant",
         "content": "I have generated the staking smart contract for you. Would you like to deploy it? If yes, please specify the blockchain network (HOLESKY or SEPOLIA) to proceed.",
         "metadata": {}
+    },
+    {
+        "id": "9dedd4e9-be48-4892-bb77-26dc9017c866",
+        "timestamp": "2024-12-19T11:21:36.213664Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deply staking_contract_1734597307in holesky",
+        "metadata": {
+            "component_id": "Header1734597310"
+        }
     }
 ]
