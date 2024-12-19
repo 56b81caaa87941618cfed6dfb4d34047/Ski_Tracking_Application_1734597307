@@ -41,5 +41,20 @@
         "metadata": {
             "tool_call_id": "call_vjP4JMxVEbBXl2j1P0znG0iy"
         }
+    },
+    {
+        "id": "9c29c27c-99af-4604-aae1-210f0fe8912e",
+        "timestamp": "2024-12-19T11:00:55.854701Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_7rN4zsciTR3tFR1qgscQCIMF",
+            "function": {
+                "arguments": "{\"contract_id\":\"staking_contract_1734597307\",\"description\":\"Create a staking smart contract that enables users to stake their tokens and earn rewards. It should include functions for staking, withdrawing, and checking rewards.\",\"acknowledgement_message\":\"Generating the staking smart contract...\"}",
+                "name": "WriteOrEditSmartContract"
+            },
+            "type": "function"
+        }
     }
 ]
