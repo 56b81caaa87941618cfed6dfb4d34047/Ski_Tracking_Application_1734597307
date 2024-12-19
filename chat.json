@@ -82,5 +82,56 @@
         "source": "smart_contract_assistant",
         "content": "I have generated the staking smart contract for you. Would you like to deploy it? If yes, please specify the blockchain network (HOLESKY or SEPOLIA) to proceed.",
         "metadata": {}
+    },
+    {
+        "id": "9dedd4e9-be48-4892-bb77-26dc9017c866",
+        "timestamp": "2024-12-19T11:21:36.213664Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deply staking_contract_1734597307in holesky",
+        "metadata": {
+            "component_id": "Header1734597310"
+        }
+    },
+    {
+        "id": "c2fdc213-ecf7-46e0-aad2-9e9b5049f7cc",
+        "timestamp": "2024-12-19T11:21:39.005494Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_igzwjjJhUsZImDVCUWEYqBqM",
+            "function": {
+                "arguments": "{\"contract_id\":\"staking_contract_1734597307\",\"chain\":\"HOLESKY\",\"frontend_description\":\"Frontend component for interacting with the staking contract\",\"acknowledgement_message\":\"Deploying the staking contract...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "92210e9f-39b7-4730-b683-753d5bd827e9",
+        "timestamp": "2024-12-19T11:21:39.069998Z",
+        "role": "assistant",
+        "source": "tool:DeployAndGenerateFrontend",
+        "content": "Deploying the staking contract...",
+        "metadata": {}
+    },
+    {
+        "id": "bbf0f92d-eed5-4cc9-9319-71a8a0ae60c0",
+        "timestamp": "2024-12-19T11:22:05.448291Z",
+        "role": "tool_result",
+        "source": "DeployAndGenerateFrontend",
+        "content": "Success: deployed contract to 0xc3039ee6993608c56ffAAcDb892b1ca5857858dD on Holesky (Ethereum testnet)",
+        "metadata": {
+            "tool_call_id": "call_igzwjjJhUsZImDVCUWEYqBqM"
+        }
+    },
+    {
+        "id": "bf4c57b4-ffa8-4452-8382-ddca7c03a630",
+        "timestamp": "2024-12-19T11:22:06.959029Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking contract has been successfully deployed on Holesky at address 0xc3039ee6993608c56ffAAcDb892b1ca5857858dD. Would you like to modify any frontend components to interact with this contract?",
+        "metadata": {}
     }
 ]
