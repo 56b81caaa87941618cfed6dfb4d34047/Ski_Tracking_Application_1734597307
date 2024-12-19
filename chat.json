@@ -311,5 +311,13 @@
             },
             "type": "function"
         }
+    },
+    {
+        "id": "1d083c28-d000-4121-a1f5-7ac7ba9223fd",
+        "timestamp": "2024-12-19T12:09:07.650684Z",
+        "role": "assistant",
+        "source": "tool:WriteOrEditSmartContract",
+        "content": "Generating the minting smart contract...",
+        "metadata": {}
     }
 ]
