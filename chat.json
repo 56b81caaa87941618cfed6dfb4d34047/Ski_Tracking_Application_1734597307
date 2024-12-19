@@ -212,5 +212,15 @@
         "source": "base_assistant",
         "content": "Please add a new component from the \"Components\" tab to the canvas, then select it so I can proceed with configuring it to interact with the staking smart contract.",
         "metadata": {}
+    },
+    {
+        "id": "2ba2a8de-257a-4c5e-8942-420c131f69c2",
+        "timestamp": "2024-12-19T11:23:27.904108Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "dude make the fonrtend  in the footes",
+        "metadata": {
+            "component_id": "Footer1734597310"
+        }
     }
 ]
