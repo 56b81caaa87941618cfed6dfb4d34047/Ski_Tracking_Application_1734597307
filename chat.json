@@ -263,5 +263,13 @@
         "source": "base_assistant",
         "content": "The footer component has been successfully updated to include functionalities to interact with the staking smart contract. Users can now stake tokens, withdraw tokens, and check their rewards directly from the footer. If you need any further adjustments or additions, let me know!",
         "metadata": {}
+    },
+    {
+        "id": "f276da59-213c-40c5-ac89-4ae6c6bf4a64",
+        "timestamp": "2024-12-19T12:09:04.215411Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a minting sc",
+        "metadata": {}
     }
 ]
